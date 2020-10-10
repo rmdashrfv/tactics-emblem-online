@@ -46,7 +46,7 @@ const User = sequelize.define('Users', {
   },
   zodiac: {
     type: ENUM,
-    value: ['Capricorn', 'Cancer', 'Libra', 'Saggitarius']
+    values: ['Capricorn', 'Cancer', 'Libra', 'Saggitarius']
   },
   exp: {
     type: INTEGER,
